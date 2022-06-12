@@ -30,16 +30,25 @@ create template
 
 downlaod the data
 
+```bash
 git init
+```
 
+```bash
 dvc init
-
+```
+```bash
 dvc add data_given/winequality.csv #data-folder/name-of-the-data
+```
 
+```bash
 git add .
-
+```
+```bash
 git commit -m "first commit"
+```
 
 oneliner updates for readme
-
+```bash
 git add . && git commit -m "update Readme.md"
+```
