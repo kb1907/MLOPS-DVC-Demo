@@ -65,3 +65,33 @@ git push -u origin main
 ```
 
 Update params.yaml
+
+Tox command
+
+```bash
+tox
+```
+
+Tox rebuild
+
+```bash
+tox -r
+```
+
+Pytest commands
+
+```bash
+pytest -v
+```
+
+Setup commands
+
+```bash
+pip install -e .
+```
+
+To build your own package commands
+
+```bash
+python setup.py sdist bdist_wheel
+```
