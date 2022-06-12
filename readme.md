@@ -63,3 +63,5 @@ git remote add origin git@github.com:kb1907/MLOPS-DVC-Demo.git
 git branch -M main
 git push -u origin main
 ```
+
+Update params.yaml
