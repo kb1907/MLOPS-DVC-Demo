@@ -1,3 +1,5 @@
+[![Python application](https://github.com/kb1907/MLOPS-DVC-Demo/actions/workflows/ci-cd.yaml/badge.svg)](https://github.com/kb1907/MLOPS-DVC-Demo/actions/workflows/ci-cd.yaml)
+
 create environment
 
 ```bash
