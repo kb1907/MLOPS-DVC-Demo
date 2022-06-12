@@ -37,6 +37,7 @@ git init
 ```bash
 dvc init
 ```
+
 ```bash
 dvc add data_given/winequality.csv #data-folder/name-of-the-data
 ```
@@ -44,11 +45,21 @@ dvc add data_given/winequality.csv #data-folder/name-of-the-data
 ```bash
 git add .
 ```
+
 ```bash
 git commit -m "first commit"
 ```
 
 oneliner updates for readme
+
 ```bash
 git add . && git commit -m "update Readme.md"
+```
+
+pushing changes to new repo
+
+```bash
+git remote add origin git@github.com:kb1907/MLOPS-DVC-Demo.git
+git branch -M main
+git push -u origin main
 ```
